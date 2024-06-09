@@ -166,7 +166,7 @@ const VideoCarousal = () => {
               <div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black">
                 <video
                   id="video"
-                  playsInline="true"
+                  playsInline={true}
                   preload="auto"
                   muted
                   className={`${
